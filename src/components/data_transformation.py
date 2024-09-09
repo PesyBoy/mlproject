@@ -88,7 +88,7 @@ class DataTransformation:
             logging.info("getting input and target features completed")
             
             input_feature_train_arr = preprocessing_object.fit_transform(input_feature_train_df)
-            input_feature_test_arr = preprocessing_object.fit_transform(input_feature_test_df)
+            input_feature_test_arr = preprocessing_object.transform(input_feature_test_df)
             
             
             train_arr = np.c_[

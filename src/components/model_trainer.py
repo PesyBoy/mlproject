@@ -118,7 +118,6 @@ class ModelTrainer:
             ) 
             
             # predicted = best_model.predict(X_test)
-            
             # r_squared = r2_score(y_test, predicted)
             
             return best_model_score
